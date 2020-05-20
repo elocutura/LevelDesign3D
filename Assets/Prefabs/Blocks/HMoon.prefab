@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2516111048822721844}
   - component: {fileID: 40793849255068559}
   - component: {fileID: 6296627949346279479}
+  - component: {fileID: 6790149536952998382}
   m_Layer: 0
   m_Name: HMoon
   m_TagString: Untagged
@@ -79,3 +80,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &6790149536952998382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362208713239809482}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6150326042995890324, guid: ca1f47923aa04b344bd1e89dc4853ee0, type: 3}

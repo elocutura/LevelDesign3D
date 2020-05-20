@@ -71,7 +71,8 @@ public class ParkourController : MonoBehaviour
         else
             grabSuccessPercentage = -1;
 
-       // grabSuccessText.text = (grabSuccessPercentage).ToString("F2");
+        if (grabSuccessText)
+            grabSuccessText.text = (grabSuccessPercentage).ToString("F2");
 
         if (Input.GetButtonDown("Jump"))
         {

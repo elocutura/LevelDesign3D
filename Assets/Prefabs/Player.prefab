@@ -159,7 +159,7 @@ MonoBehaviour:
   speed: 10
   maxSpeed: 10
   extraGravity: 500
-  horizontalSens: 10
+  horizontalSens: 30
   verticalSens: 15
   airTurningAccel: 10
   maxAirAccel: 30
@@ -173,7 +173,7 @@ MonoBehaviour:
   groundCheckRadius: 0.4
   maxSpeedDampRatio: 0.05
   minimumSpeedToWallRide: 0
-  wallRunningAngleThreshold: 30
+  wallRunningAngleThreshold: 60
   wallCatchJumpCooldown: 1
   wallRunCheckRadius: 0.4
   wallRuning: 0

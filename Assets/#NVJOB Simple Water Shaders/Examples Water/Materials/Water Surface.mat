@@ -21,7 +21,7 @@ Material:
     m_TexEnvs:
     - _AlbedoTex1:
         m_Texture: {fileID: 2800000, guid: c0b6bf8318ac49428d178d00fb333969, type: 3}
-        m_Scale: {x: 50, y: 50}
+        m_Scale: {x: 7, y: 20}
         m_Offset: {x: 0, y: 0}
     - _AlbedoTex2:
         m_Texture: {fileID: 2800000, guid: 8dfd1f80c63a4d9e8e649a0b29ad9cb9, type: 3}
@@ -101,7 +101,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _NormalMap1:
         m_Texture: {fileID: 2800000, guid: caecb7663e614c0e8d1cf595085ee759, type: 3}
-        m_Scale: {x: 50, y: 50}
+        m_Scale: {x: 7, y: 20}
         m_Offset: {x: 0, y: 0}
     - _NormalMap2:
         m_Texture: {fileID: 2800000, guid: 0402941ce4e74e24abb686de97205888, type: 3}
@@ -131,7 +131,7 @@ Material:
     - _Albedo2Flow: 0.9
     - _Albedo2Tiling: 0.9
     - _AlbedoContrast: 0.13
-    - _AlbedoIntensity: 4.2
+    - _AlbedoIntensity: 3.85
     - _Brightness: 1
     - _BumpScale: 1
     - _Contrast: 1
@@ -163,16 +163,16 @@ Material:
     - _MainDetailFlow: 1
     - _MainDetailScale: 1
     - _Metallic: 0.95
-    - _MicrowaveScale: 1
-    - _MicrowaveStrength: 0.91
+    - _MicrowaveScale: 5.99
+    - _MicrowaveStrength: 1.36
     - _MinuteDetailIntensity: 1.455
     - _MinuteDetailScrollSpeed: 0.089
     - _Mitigation: 22.4
     - _Mode: 0
     - _NormalDetailFlow: 1
-    - _NormalMap1Strength: 0.8
+    - _NormalMap1Strength: 3.39
     - _NormalMap2Flow: -0.2
-    - _NormalMap2Strength: 0.5
+    - _NormalMap2Strength: 0.43
     - _NormalMap2Tiling: 1.2
     - _NormalmapDetailScale: 1.2
     - _NormalmapDetailScaleA: 1
@@ -181,7 +181,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.1
     - _ParallaxAmount: 0.1
-    - _ParallaxFlow: 2.3
+    - _ParallaxFlow: 1
     - _ParallaxMapTiling: 0.51
     - _ParallaxNormal2Offset: 2
     - _ParallaxScale: 0.51
@@ -193,7 +193,7 @@ Material:
     - _Saturation: 1
     - _Shininess: 0.157
     - _SmoothnessTextureChannel: 0
-    - _SoftFactor: 0.11
+    - _SoftFactor: 0.288
     - _SpecularHighlights: 1
     - _Speed: 0.5
     - _SpeedX: 0.1

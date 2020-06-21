@@ -12,7 +12,6 @@ public class ParkourController : MonoBehaviour
 
     public float idealGrabDistance;
     float grabSuccessPercentage;
-    public Text grabSuccessText;
 
     public float sphereCastYOffset;
     public float sphereCastRadius;
@@ -71,8 +70,7 @@ public class ParkourController : MonoBehaviour
         else
             grabSuccessPercentage = -1;
 
-        if (grabSuccessText)
-            grabSuccessText.text = (grabSuccessPercentage).ToString("F2");
+        UIController.singleton.UpdateSuccessRateSlider(grabSuccessPercentage);
 
         if (Input.GetButtonDown("Jump"))
         {

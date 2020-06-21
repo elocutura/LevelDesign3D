@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3179355354244405267}
   - component: {fileID: 3179355354241505331}
   - component: {fileID: 3179355354242505459}
-  - component: {fileID: 3179355354238478995}
+  - component: {fileID: 2134502788706366160}
   m_Layer: 0
   m_Name: Relax
   m_TagString: Untagged
@@ -80,8 +80,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &3179355354238478995
-MeshCollider:
+--- !u!65 &2134502788706366160
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -90,7 +90,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300010, guid: de7507b9d0f8a864bb79be28961d74a1, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 2.0000005, y: 0.5, z: 8.000002}
+  m_Center: {x: 0, y: -0.23, z: 0}
